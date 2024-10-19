@@ -1,4 +1,4 @@
-# Advent of Code 2017
+# Advent of Code 2017 :christmas_tree:
 
 | Day | Part 1 | Part 2 |
 |----:| ------ | ------ |

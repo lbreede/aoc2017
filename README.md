@@ -2,14 +2,12 @@
 
 | Day | Part 1 | Part 2 |
 |----:| ------ | ------ |
-
-
-| 1 | 272.61µs | 255.57µs |
+| 1 | 214.82µs | 197.40µs |
 Day 2: Corruption Checksum
-Part 1: 36174 (194.62µs)
-Part 2: 244 (209.78µs)
+Part 1: 36174 (149.17µs)
+Part 2: 244 (160.93µs)
 
 Day 3: Spiral Memory
-Part 1: 0 (448.00ns)
-Part 2: 0 (70.00ns)
+Part 1: 0 (58.00ns)
+Part 2: 0 (58.00ns)
 

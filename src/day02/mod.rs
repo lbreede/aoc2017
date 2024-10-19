@@ -1,23 +1,18 @@
-use crate::AOCResult;
 use std::time::Instant;
 
 const INPUT: &str = include_str!("input.txt");
 
-pub fn main() -> AOCResult<u32> {
+pub fn main() {
+    println!("Day 2: Corruption Checksum");
     let now = Instant::now();
-    let part_one_result = part_one(INPUT);
-    let part_one_elapsed = now.elapsed();
+    let result = part_one(INPUT);
+    let elapsed = now.elapsed();
+    println!("Part 1: {} ({:.2?})", result, elapsed);
 
     let now = Instant::now();
-    let part_two_result = part_two(INPUT);
-    let part_two_elapsed = now.elapsed();
-    AOCResult::new(
-        2,
-        part_one_result,
-        part_one_elapsed,
-        part_two_result,
-        part_two_elapsed,
-    )
+    let result = part_two(INPUT);
+    let elapsed = now.elapsed();
+    println!("Part 2: {} ({:.2?})\n", result, elapsed);
 }
 
 fn part_one(input: &str) -> u32 {
